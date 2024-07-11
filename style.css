@@ -1,0 +1,32 @@
+*{margin:0;
+padding: 0;}
+
+.container{margin: 0 auto;
+width: 1430px;}
+
+#card-area-start{background-color: aquamarine;}
+
+.card-area{
+    display: grid;
+grid-template-columns: repeat(4,1fr);
+grid-gap: 10px;
+}
+
+
+.box{background-color: rgba(217, 227, 105, 0.193);
+    border: 2px solid rgba(0, 0, 255, 0.632);
+color: aliceblue;
+height:491px;
+width:325px;
+padding: 20px;}
+
+.box h1{color: rgb(223, 107, 4); }
+
+.box img{height: 300px;
+width: 325px;} 
+
+.box p{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+ 
+
+  
